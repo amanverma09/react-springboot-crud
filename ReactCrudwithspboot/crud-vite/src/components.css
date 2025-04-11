@@ -1,0 +1,136 @@
+/* Change Body Background */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+/* App Container */
+.app-container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* Form Styling */
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  padding: 13px;
+  margin-left: 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+/* User List Styling */
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.user-list li {
+  background: white;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-list li:hover {
+  background: #f4f4f4;
+  transform: translateY(-2px);
+}
+
+.user-info {
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.user-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.user-actions button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.user-actions .edit-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.user-actions .edit-btn:hover {
+  background-color: #218838;
+}
+
+.user-actions .delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.user-actions .delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Title Styling */
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #f4e113;
+  text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.2);  
+}
